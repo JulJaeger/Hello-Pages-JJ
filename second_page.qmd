@@ -1,0 +1,18 @@
+---
+title: "second_page"
+format: html
+---
+
+```{r}
+library(reactable)
+```
+
+```{r table}
+reactable(iris)
+```
+
+
+```{r plot}
+plot(iris)
+```
+
